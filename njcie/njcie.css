@@ -1559,3 +1559,85 @@ hr {
 #inlinePdfResizer {
 	min-height: 600px;
 }
+
+/*html content start*/
+#content .MsoTitle {
+	font-weight: bold;
+	color: #333333;
+	line-height: 1.2em;
+	margin-right: 0em;
+	margin-left: 0em;
+	font-size: 2.2em;
+		font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#content h1 {
+	font-weight: bold;
+	color: #333333;
+	line-height: 1.2em;
+	margin-right: 0em;
+	margin-left: 0em;
+	margin-top: 2em;
+	font-size: 2em;
+		font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#content h2 {
+	font-weight: bold;
+	color: #333333;
+	line-height: 1.2em;
+	margin-right: 0em;
+	margin-left: 0em;
+	margin-top: 1.5em;
+	font-size: 1.7em;
+		font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#content h3 {
+	font-weight: bold;
+	color: #333333;
+	line-height: 1.2em;
+	margin-right: 0em;
+	margin-left: 0em;
+	margin-top: 1.5em;
+	font-size: 1.5em;
+		font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#content h4 {
+	font-weight: bold;
+	color: #333333;
+	line-height: 1.2em;
+	margin-right: 0em;
+	margin-left: 0em;
+	font-size: 1.3em;
+		font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#content .MsoQuote{
+	font-style: italic;
+	font-size: 0.9em;
+	margin-left: 3em;
+}
+
+#content > div > div > div, #content > div > div > div > div {
+	overflow:  auto;
+}
+
+#content table[style] {
+    margin-left:auto  !important;
+    margin-right:auto !important;
+}
+
+#content img {
+	margin: auto;
+	max-width: 100%;
+}
+
+
+#content p[class*="Reference"]{
+    margin-left: 3em;
+	text-indent: -3em;
+}
+
+/*html content end*/
